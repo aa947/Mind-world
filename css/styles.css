@@ -234,7 +234,7 @@ h3.menu-item-title {
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('..') no-repeat;
-    height: 500px;
+    height: 700px;
   }
 }
 
