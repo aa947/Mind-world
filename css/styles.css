@@ -151,6 +151,16 @@ body {
   color: #fff;
   opacity: .8;
 }
+.clear{
+  margin-bottom: 30px;
+}
+ .jumbotron h2{
+  color: yellow;
+  /*background-color: blue;*/
+ }
+.jubotron-head-div{
+  background-color: blue;
+}
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
@@ -234,7 +244,7 @@ h3.menu-item-title {
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('..') no-repeat;
-    height: 700px;
+    height: 730px;
   }
 }
 
