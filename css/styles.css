@@ -159,16 +159,32 @@ body {
   opacity: .8;
 }
 .clear{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  align-content: center;
+  padding-left: 10%;
 
 }
  .jumbotron h2{
   color: yellow;
+  margin-bottom: 30px;
   /*background-color: blue;*/
  }
 .jubotron-head-div{
-  width:25%;
+  width:50%;
   background-color: blue transparent;
+}
+.jumbotron-comfort{
+  height: 400px;
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.jumbotron-comfort h2{
+  color: yellow;
+  width:300px;
+  margin-bottom: 30px;
+}
+.fas{
+  align-content: center;
 }
 /* END HOME PAGE */
 
@@ -253,7 +269,7 @@ h3.menu-item-title {
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('..') no-repeat;
-    height: 730px;
+    height: 900px;
   }
 }
 
