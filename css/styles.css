@@ -174,17 +174,34 @@ body {
   background-color: blue transparent;
 }
 .jumbotron-comfort{
-  height: 400px;
+  height: 350px;
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
+ 
 }
 .jumbotron-comfort h2{
   color: yellow;
   width:300px;
   margin-bottom: 30px;
+  font-size: 25px;
+  margin-left: 35px;
+  padding-left: 35;
 }
-.fas{
+
+#contact-row{
+  padding-left: 60px;
+}
+/* .fas .fab{
   align-content: center;
+  display: inline-block;
+ 
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#git-icon{
+  margin-top:-20px; */
+
+
 }
 /* END HOME PAGE */
 
