@@ -9,6 +9,22 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 });
 
+//main page slide show
+
+(function() {
+  var myIndex = 0;
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout($this, 2500);    
+});
+
+
 (function (global) {
 
 var dc = {};
@@ -341,6 +357,9 @@ function insertItemPortionName(html,
 }
 
 
+
+
 global.$dc = dc;
+
 
 })(window);

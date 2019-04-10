@@ -1,5 +1,8 @@
     <div class="jumbotron-summary">
-      <img src="images/banner.jpg" height="100%" width="100%" >
+      <img src="images/banner.jpg" class="mySlides" height="100%" width="100%" >
+      <img src="images/banner/banner2.jpg" class="mySlides" height="100%" width="100%" >
+      <img src="images/banner/banner3.jpg" class="mySlides" height="100%" width="100%" >
+      <img src="images/banner/banner4.jpg" class="mySlides" height="100%" width="100%" >
     </div>
     
     <div class="jumbotron">
@@ -59,7 +62,7 @@
             
           </div>
           
-          <!-- <div id="project-6" class="col-lg-3 col-md-4 col-ms-2 thumnail clear"> 
+           <div id="project-6" class="col-lg-4 col-md-4 col-ms-2 thumnail clear"> 
             <img src="images/img (6).png" class="img-thumbnail" >   
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -68,7 +71,7 @@
             </div>       
           </div>
           
-          <div id="project-7" class="col-lg-3 col-md-4 col-ms-2 thumnail clear"> 
+         <!-- <div id="project-7" class="col-lg-3 col-md-4 col-ms-2 thumnail clear"> 
             <img src="images/img (7).png" class="img-thumbnail" >
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -92,22 +95,22 @@
       </div>
       <br>
       <div id="services-row" class="row">
-        <div class="col-lg-6 clear col-xs-6"> <i class="fas fa-chart-line fa-8x"></i> 
+        <div class="col-lg-6 col-md-6 col-ms-12 clear"> <i class="fas fa-chart-line fa-6x"></i> 
           <h3> Full managment of your Website </h3>
           <h3> Front-End </h3>
           <h3> back End </h3>
         </div>
-        <div class="col-lg-6 clear col-xs-6"> <i class="fas fa-code fa-8x"></i> 
+        <div class="col-lg-6 col-md-6 col-ms-12 clear"> <i class="fas fa-code fa-6x"></i> 
           <h3> Full managment of your Website </h3>
           <h3> Front-End </h3>
           <h3> back End </h3>
         </div>
-        <div class="col-lg-6 clear col-xs-6"> <i class="fas fa-signal fa-8x"></i>
+        <div class="col-lg-6 col-md-6 col-ms-12 clear"> <i class="fas fa-signal fa-6x"></i>
           <h3> Full managment of your Website </h3>
           <h3> Front-End </h3>
           <h3> back End </h3>
         </div>
-        <div class="col-lg-6 clear col-xs-6"> <i class="fas fa-fingerprint fa-8x"></i> 
+        <div class="col-lg-6 col-md-6 col-ms-12 clear"> <i class="fas fa-fingerprint fa-6x"></i> 
           <h3> Full managment of your Website </h3>
           <h3> Front-End </h3>
           <h3> back End </h3>
@@ -122,17 +125,17 @@
         </div>
         <br>
         <div id="contact-row" class="row">
-            <div class="col-lg-3 col-xs-3"> <i class="fab fa-js-square fa-4x"></i> </div>
-            <div class="col-lg-3 col-xs-3"> <i class="fab fa-html5 fa-4x"></i>       </div>
-            <div class="col-lg-3 col-xs-3"> <i class="fab fa-css3-alt fa-4x"></i> </div>
-            <div class="col-lg-3 col-xs-3"> <i id="git-icon" class="fab fa-github fa-4x"></i> </div>
+            <div class="col-lg-3 col-xs-6"> <i class="fab fa-js-square fa-4x"></i> </div>
+            <div class="col-lg-3 col-xs-6"> <i class="fab fa-html5 fa-4x"></i>       </div>
+            <div class="col-lg-3 col-xs-6"> <i class="fab fa-css3-alt fa-4x"></i> </div>
+            <div class="col-lg-3 col-xs-6"> <i id="git-icon" class="fab fa-github fa-4x"></i> </div>
         </div>
             <br> <br > 
             <div id="contact-row" class="row">
-            <div class="col-lg-3 col-xs-3"> <i class="fab fa-react fa-4x"></i> </div>
-            <div class="col-lg-3 col-xs-3"> <i class="fab fa-python fa-4x"></i> </div>
-            <div class="col-lg-3 col-xs-3"> <i class="fab fa-php fa-4x"></i> </div>
-            <div class="col-lg-3 col-xs-3"> <i class="fas fa-database fa-4x"></i> </div>
+            <div class="col-lg-3 col-xs-6"> <i class="fab fa-react fa-4x"></i> </div>
+            <div class="col-lg-3 col-xs-6"> <i class="fab fa-python fa-4x"></i> </div>
+            <div class="col-lg-3 col-xs-6"> <i class="fab fa-php fa-4x"></i> </div>
+            <div class="col-lg-3 col-xs-6"> <i class="fas fa-database fa-4x"></i> </div>
             <!-- <div class="col-lg-2 clear"> <i class="fas fa-fingerprint fa-3x"></i> </div>
             <div class="col-lg-2 clear"> <i class="fas fa-fingerprint fa-3x"></i> </div> -->
         </div>
@@ -158,3 +161,22 @@
         </a>
       </div>
     </div>End of #home-tiles -->
+
+    <!-- <script>
+    //main page slide show
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+
+    </script> -->
